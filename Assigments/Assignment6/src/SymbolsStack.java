@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.EmptyStackException;
 
 public class SymbolsStack<E> implements StackInterface<E> {
@@ -45,4 +46,11 @@ public class SymbolsStack<E> implements StackInterface<E> {
         return top + 1;
     }
 
+    @Override
+    public String toString() {
+        return "SymbolsStack{" +
+                "data=" + Arrays.toString(data) +
+                ", top=" + top +
+                '}';
+    }
 }
