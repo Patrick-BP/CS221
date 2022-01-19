@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Demo {
     public static void main(String[] args) {
 
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter a Mathematical Expression");
-//        String input = sc.nextLine();
-//        System.out.println(balancecheck(input));
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter a Mathematical Expression");
+	String input = sc.nextLine();
 
 
-        System.out.println(balancecheck("{(a,b)}"));
-        System.out.println(balancecheck("{(a},b)"));
-        System.out.println(balancecheck("{)(a,b}"));
+	System.out.println(balancecheck(input));
+
+
+       
 
     }
 
