@@ -3,6 +3,7 @@ import java.util.TimerTask;
 
 public class Demo {
     public static void main(String[] args) {
+        Comparable target = "smith";
        QueueCustomer<Customer> queueList = new QueueCustomer();
 
        Customer cst1 = new Customer("patrick");
